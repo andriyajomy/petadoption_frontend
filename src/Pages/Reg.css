@@ -1,0 +1,112 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body,
+  input {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .forms-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  } */
+  
+  /* .signin-signup {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 75%;
+    width: 50%; */
+    /* transition: 1s 0.7s ease-in-out; */
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    /* z-index: 5; */
+  /* }
+   */
+  /* form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 5rem;
+  }
+  :focus {
+    outline: 0;
+    border-color: #2260ff;
+    /* box-shadow: 0 0 0 4px #b5c9fc; */
+  /* } */ 
+  
+  /* .mydict div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    justify-content: center;
+  }
+  
+  .mydict [type="radio"] {
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  .mydict [type="radio"]:checked + span {
+    
+    background-color: #dee7ff;
+    z-index: 1;
+    color: #0043ed;
+  }
+  
+  label span {
+    display: block;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0.375em .75em;
+    position: relative;
+    margin-left: .0625em;
+    box-shadow: 0 0 0 0.0625em #b5bfd9;
+    letter-spacing: .05em;
+    color: #3e4963;
+    text-align: center;
+    transition:  .5s ease;
+  }
+  
+  label:first-child span {
+    border-radius: .375em 0 0 .375em;
+  }
+  
+  label:last-child span {
+    border-radius: 0 .375em .375em 0;
+  }
+   */
+
+
+
+   .form{
+    border-radius: 10px;
+}
+
+.geeks{
+    /* background-image: url('https://static.wixstatic.com/media/c837a6_c1b0c4eca599475ba5e0f0eeb71110f0~mv2.jpg/v1/fill/w_1920,h_876,fp_0.26_0.33,q_90/c837a6_c1b0c4eca599475ba5e0f0eeb71110f0~mv2.webp'); */
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position-y: 70px;
+ height: 630px;
+}

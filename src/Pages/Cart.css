@@ -1,0 +1,53 @@
+.payments .details {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    padding: 10px;
+    gap: 5px;
+  }
+  
+  .payments .details span:nth-child(odd) {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    margin: auto auto auto 0;
+  }
+  
+  .payments .details span:nth-child(even) {
+    font-size: 13px;
+    font-weight: 600;
+    color: #000000;
+    margin: auto 0 auto auto;
+  }
+  
+  .checkout .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 20px;
+    background-color:#EDE0D4;
+    margin-top: -55px;
+  }
+  
+  .price {
+    position: relative;
+    font-size: 22px;
+    color: #2B2B2F;
+    font-weight: 900;
+  }
+  
+  .checkout .checkout-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 36px;
+    background:rgba(69,34,18);
+    /* box-shadow: 0px 0.5px 0.5px #E5C7C5, 0px 1px 0.5px rgba(239, 239, 239, 0.5); */
+    border-radius: 7px;
+    border: 1px solid #ECC2C0;
+    color:#EDE0D4;
+    font-size: 13px;
+    font-weight: 600;
+    /* transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1); */
+  }

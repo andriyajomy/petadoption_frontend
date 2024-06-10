@@ -1,0 +1,68 @@
+.reviews .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  
+  gap: 1rem;
+}
+.reviews .box-container .box{
+text-align: center;
+padding: 10px;
+border: 3px solid rgb(192, 188, 188);
+box-shadow: 2px 3px 4px rgb(52, 45, 45);
+border-radius: .5rem;
+flex: 1 1 28rem;
+background: bisque;
+
+
+}
+.reviews .box-container .box img{
+border-radius: 50%;
+border: 4px solid white;
+margin-top: -45px;
+object-fit:fill;
+height:4rem;
+width: 4rem;
+}
+
+.gallery .box-container{
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+}
+.gallery .box-container .box{
+height: 25rem;
+flex: 1 1 28rem;
+border: 3px solid rgb(192, 188, 188);
+box-shadow: 2px 3px 4px rgb(52, 45, 45);
+border-radius: .5rem;
+position: relative;
+overflow: hidden;
+
+}
+.gallery .box-container .box img{
+width: 100%;
+height: 100%;
+object-fit: fill;
+}
+.gallery .box-container .box .content{
+position: absolute;
+top: -140%;
+left: 0;
+height: 100%;
+width: 100%;
+background: rgb(255, 255, 255,0.8);
+padding: 2rem;
+padding-top: 7rem;
+padding-right: 5rem;
+}
+.gallery .box-container .box .content p{
+
+padding: 2rem ;
+color: rgb(114, 47, 23);
+}
+.gallery .box-container .box .content h3{
+text-align: center;
+}
+.gallery .box-container .box:hover .content{
+top: 0;
+}
